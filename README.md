@@ -1,7 +1,5 @@
 # Pasquali Code Challange
 
-Clone the repository
-
 ### Windows
 
 1. **Install Docker Desktop:**
@@ -11,7 +9,7 @@ Clone the repository
    - Open PowerShell or Command Prompt on your computer.
 
 3. **Build Docker Image:**
-   - Navigate to the directory containing your Dockerfile.
+   - Navigate to the directory containing the Dockerfile.
    - Run the following command to build the Docker image:
      ```
      docker build -t web-extractor .
@@ -37,7 +35,7 @@ Clone the repository
    - Open Terminal on your computer.
 
 3. **Build Docker Image:**
-   - Navigate to the directory containing your Dockerfile.
+   - Navigate to the directory containing the Dockerfile.
    - Run the following command to build the Docker image:
      ```
      docker build -t web-extractor .
