@@ -24,7 +24,6 @@ def extract_logo(url):
 def extract_phone_numbers(url):
     try:
         response = requests.get(url)
-        soup = BeautifulSoup(response.text, 'html.parser')
         phone_numbers = re.findall(r'[\+\(]?[1-9][0-9 .\-\(\)]{8,}[0-9]', response.text)
         cleaned_numbers = [clean_phone_number(number) for number in phone_numbers]
         return cleaned_numbers
